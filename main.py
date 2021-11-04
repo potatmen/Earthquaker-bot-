@@ -1,7 +1,7 @@
 import telebot
 from find_nearest_place import nearest
 from coordinates_processing import check, cords
-bot = telebot.TeleBot("2062779263:AAE7_XjRInzZhcpZKscbwk2UxCGIZvrMfpk")
+bot = telebot.TeleBot("your_chat_id")
 user_id = 0
 @bot.message_handler(content_types=["text"])
 def greetings(message):
